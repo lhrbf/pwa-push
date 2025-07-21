@@ -1,0 +1,17 @@
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    border: none;
+    width: 100%;
+    box-shadow: var(--shadow-light);
+    margin: var(--spacing-sm) auto;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
