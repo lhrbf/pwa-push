@@ -14,7 +14,7 @@
   gap: var(--spacing-lg);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border: 0.75px solid rgba(62, 63, 90, 0.75);
+  border: 0.75px solid rgba(38, 38, 46, 0.85);
 }
 
 .login-title {
