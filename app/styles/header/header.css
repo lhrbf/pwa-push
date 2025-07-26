@@ -1,8 +1,15 @@
 header {
-    background-color: var(--bg-primary);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     display: flex;
     justify-content: space-between;
     padding: var(--spacing-sm) var(--spacing-md);
+    height: 70px;
 }
 
 .profile-container {
@@ -16,10 +23,18 @@ header {
     background-color: transparent;
     color: #e46d6d;
     padding: var(--spacing-xs) var(--spacing-sm);
-    border: none;
+    border: 0.5px solid rgba(228, 109, 109, 0.2);
     transition: all var(--transition-default);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    max-width: 120px;
+    margin: 0;
+    font-size: var(--font-size-sm);
+    box-shadow: none;
+}
+
+.logout-button:hover {
+    background-color: rgba(228, 109, 109, 0.15);
 }

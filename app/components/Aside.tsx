@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../styles/aside/aside.css";
 
 export default function Aside() {
   return (

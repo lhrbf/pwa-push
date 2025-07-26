@@ -29,6 +29,10 @@
   gap: var(--spacing-md);
 }
 
+.login-form a:hover{
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
 @media (max-width: 7680px) {
   .middle-login {
